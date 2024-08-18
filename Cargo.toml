@@ -1,0 +1,18 @@
+[package]
+name = "e6kiro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serenity = {version = "0.12.2", features = ["full"]}
+tokio = {version = "1.39.2", features = ["full"]}
+dotenv = "0.15.0"
+viuer = {version = "*", features = ["sixel"]}
+reqwest = {version = "*", features = ["json"]}
+serde = {version = "*"}
+serde_derive = {version = "*"}
+serde_json = {version = "*"}
+serde_path_to_error = "*"
+base64 = "*"
+byte-unit = "*"
+ctrlc = "*"
