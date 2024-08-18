@@ -2,7 +2,7 @@ use std::env;
 
 use base64::Engine;
 use dotenv::dotenv;
-use e6kiro::E621Posts;
+use esixkiro::E621Posts;
 use reqwest::header::{HeaderValue, AUTHORIZATION, USER_AGENT};
 use serenity::all::CreateMessage;
 use serenity::model::channel::Message;
